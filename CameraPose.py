@@ -245,7 +245,7 @@ if __name__ == "__main__":
     pattern = r"pattern.jpg"
     pattern_path = os.path.join(base_path, 'images', pattern)
     image_dir = os.path.join(os.getcwd(), 'images')
-    images = [os.path.join(base_path, 'images', img) for img in os.listdir(image_dir) if 'IMG_67' in img]
+    images = [os.path.join(base_path, 'images', img) for img in os.listdir(image_dir) if 'IMG' in img]
 
     # qr code is 88mm x 88mm square
     qr_code_width = 88
